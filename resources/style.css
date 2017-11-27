@@ -86,6 +86,7 @@ header{
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
 
 .cameras{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
