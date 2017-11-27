@@ -1,0 +1,162 @@
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  color: MediumAquamarine;
+}
+
+.logo p{
+  padding-left: 10px;
+}
+
+.navigation{
+  display: flex;
+  text-align: right;
+}
+
+.navigation li{
+  display: inline-block;
+  align-content: space-around;
+  text-decoration: underline;
+  padding: 10px 20px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.column-large{
+  width: 630px;
+  display: block;
+}
+
+.column-medium{
+  width: 300px;
+  display: block;
+  align-items: flex-start;
+}
+
+.column-small{
+  width: 240px;
+  display: block;
+  align-items: flex-start;
+}
+
+
+.mainstory-headline{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin: auto;
+  display: flex;
+  height: 300px;
+}
+
+.story{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+
+.earthstory{
+  border: 1px solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.cameras{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.cats{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+
+#other-stories{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.news h2{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news .story ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.news .story li{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  display: block;
+}
+
+footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  flex-flow: column wrap;
+
+}
+
+.mytimes-footer{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 50px;
+  border-right: 2px solid white;
+  display: inline-block;
+}
+
+footer li{
+  display: inline-block;
+  align-content: space-around;
+  text-decoration: underline;
+  padding: 10px 20px;
+}
+
+.copyright{
+  display: block;
+}
